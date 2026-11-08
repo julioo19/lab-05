@@ -1,0 +1,4 @@
+3:  host    = google_container_cluster.default.endpoint
+6:    google_container_cluster.default.master_auth[0].client_certificate,
+8:  client_key = base64decode(google_container_cluster.default.master_auth[0].client_key)
+10:    google_container_cluster.default.master_auth[0].cluster_ca_certificate,
